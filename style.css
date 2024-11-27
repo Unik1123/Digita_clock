@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    
+    background-position: center;
+    background-size: cover;
+}
+#clock-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 570px;
+}
+#clock{
+    font-size: 6.5rem;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    color: white;
+
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
